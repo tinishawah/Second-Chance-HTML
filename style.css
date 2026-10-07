@@ -1,0 +1,36 @@
+
+/* This styles the whole page */
+body {
+  background-color: #f9f9f9; /* Change the background color here */
+  font-family: Arial, sans-serif; /* Change the font here */
+  margin: 20px;
+}
+
+/* This styles the heading */
+h1 {
+  color: rgb(0, 139, 53); /* Change heading color */
+  text-align: center; /* Change alignment (left, right, center) */
+}
+h2 {
+  color: rgb(0, 139, 53); /* Change heading color */
+  text-align: center; /* Change alignment (left, right, center) */
+}
+
+/* This styles the paragraph */
+p {
+  font-size: 16px; /* Change text size */
+  line-height: 1.5; /* Adjust spacing between lines */
+  color: #004b5b; /* Change paragraph color */
+}
+
+/* This styles the unordered list */
+ul {
+  color: rgb(139, 0, 93); /* Change list color */
+  list-style-type: disc; /* Change bullet style */
+  margin-left: 20px; /* Adjust left margin */
+}
+
+img {
+  max-width: 50%; /* Responsive sizing */
+  height: auto;    /* Maintains aspect ratio */
+}
