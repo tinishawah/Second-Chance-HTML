@@ -13,16 +13,18 @@ h1 {
 }
 h2 {
   color: rgb(0, 139, 53); /* Change heading color */
-  text-align: center; /* Change alignment (left, right, center) */
-}
+ <ul>
+  <li>Money</li>
+  <li>Health</li>
+  <li>Love</li>
+</ul>
 
-/* This styles the paragraph */
-p {
-  font-size: 16px; /* Change text size */
-  line-height: 1.5; /* Adjust spacing between lines */
-  color: #004b5b; /* Change paragraph color */
-}
-
+<div class="flex-container">
+  <div class="flex-item">Item 1</div>
+  <div class="flex-item">Item 2</div>
+  <div class="flex-item">Item 3</div>
+</div>
+</section>
 /* This styles the unordered list */
 ul {
   color: rgb(139, 0, 93); /* Change list color */
