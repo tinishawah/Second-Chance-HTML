@@ -33,4 +33,17 @@ ul {
 img {
   max-width: 50%; /* Responsive sizing */
   height: auto;    /* Maintains aspect ratio */
+} .flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  flex: 1;
+  padding: 20px;
+  background-color: #f2f2f2;
+  text-align: center;
 }
